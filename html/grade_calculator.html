@@ -1,0 +1,44 @@
+<! Doctype html>
+<head> 
+	<meta chartype="utf-8"/>
+	<link rel="stylesheet" href="main.css"/>
+		<link rel="stylesheet" href="grade_calc.css"/>
+</head>
+<body>
+	<id="logo" img src="moodle_companion" alt="Moodle companion logo"/>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="grade_calculator.html">Grade Calc</a></li>
+			<li><a href="prerequisites.html">Prerequisites</a></li>
+			<li><a href="courses_offered.html">Courses offered</a></li>
+			<li><a href="help.html">Help</a></li>
+		</ul>
+	</nav>
+	<div id="user_form">
+		<div id="grade_form">
+			<table>
+				<tr>
+					<th>First name</th>
+					<th>Last name</th>
+					<th>Final grade</th>
+					<th class="grade_details">Item Name</th>
+					<th class="grade_details">Category</th>
+					<th class="grade_details">Grade</th>
+					<th class="grade_details">Weight</th>
+				</tr>
+				<tr>
+					<td><input type="textbox" class="name"/></td>
+					<td><input type="textbox" class="name"/></td>
+					<td><input type="textbox" class="final_grade" readonly/></td>
+					<td><input type="textbox" class="name"/></td>
+					<td><input type="textbox" class="category"/></td>
+					<td><input type="textbox" class="item_grade"/></td>
+					<td><input type="textbox" class="weight"/></td>
+				</tr>
+			</table>
+		</div>
+		<button onClick="addRow()">Add row</button>
+		<button onClick="calculate()">Calculate</button>
+	</div>
+</body>

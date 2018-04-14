@@ -1,0 +1,25 @@
+
+#user_form{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f8f8f8;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+
+#grade_form .final_grade{
+	width: 80px;
+}
+
+#grade_form .item_grade{
+	width: 55px;
+}
+#grade_form .weight{
+	width: 55px;
+}
+
+.category, .name{
+	width: 100px;
+}
